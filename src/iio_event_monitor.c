@@ -55,8 +55,10 @@ static const char * const iio_chan_type_name_spec[] = {
 	[IIO_VELOCITY] = "velocity",
 	[IIO_CONCENTRATION] = "concentration",
 	[IIO_RESISTANCE] = "resistance",
+#if 0
 	[IIO_PH] = "ph",
 	[IIO_UVINDEX] = "uvindex",
+#endif
 };
 
 static const char * const iio_ev_type_text[] = {
@@ -94,7 +96,9 @@ static const char * const iio_modifier_names[] = {
 	[IIO_MOD_LIGHT_RED] = "red",
 	[IIO_MOD_LIGHT_GREEN] = "green",
 	[IIO_MOD_LIGHT_BLUE] = "blue",
+#if 0
 	[IIO_MOD_LIGHT_UV] = "uv",
+#endif
 	[IIO_MOD_QUATERNION] = "quaternion",
 	[IIO_MOD_TEMP_AMBIENT] = "ambient",
 	[IIO_MOD_TEMP_OBJECT] = "object",
