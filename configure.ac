@@ -3,9 +3,9 @@
 
 #AC_PREREQ(2.60)
 AC_INIT(bbexample, 0.1, ajlennon@dynamicdevices.co.uk)
-AC_CONFIG_SRCDIR([src/bbexample.c])
+AC_CONFIG_SRCDIR([src/lsiio.c])
 AC_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE(bbexample, main)
+AM_INIT_AUTOMAKE(lsiio, main)
 
 # Checks for programs.
 AC_PROG_CC
