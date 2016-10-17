@@ -3,16 +3,16 @@
 # Yocto Project Development Manual.
 #
 
-DESCRIPTION = "Simple helloworld application"
+DESCRIPTION = "Linux IIO-Utils Recipe"
 DEPENDS = ""
 LICENSE = "GPLv2"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRCREV = "${AUTOREV}"
-# SRCREV = "ef44b56f85802faba1b89ca46303f0629cdbe7a0"
-SRC_URI = "git:///home/tfe/work/beagle/sw/src/iioutils"
+SRC_URI = "git://github.com/thomafred/iio_utils"
+
 LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
+SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 
