@@ -151,8 +151,10 @@ static bool event_is_known(struct iio_event_data *event)
 	case IIO_VELOCITY:
 	case IIO_CONCENTRATION:
 	case IIO_RESISTANCE:
+#if 0
 	case IIO_PH:
 	case IIO_UVINDEX:
+#endif
 		break;
 	default:
 		return false;
@@ -179,7 +181,9 @@ static bool event_is_known(struct iio_event_data *event)
 	case IIO_MOD_LIGHT_RED:
 	case IIO_MOD_LIGHT_GREEN:
 	case IIO_MOD_LIGHT_BLUE:
+#if 0
 	case IIO_MOD_LIGHT_UV:
+#endif
 	case IIO_MOD_QUATERNION:
 	case IIO_MOD_TEMP_AMBIENT:
 	case IIO_MOD_TEMP_OBJECT:
